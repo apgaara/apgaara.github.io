@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #131424;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.foto {
+    margin-left: 101px;
+    margin-top: 160px;
+}
+
+.social {
+    font-size: 33px;
+    padding: 7px;
+    color: #fff;
+}
+
+.containerw {
+    width: 130px;
+    height: 37px;
+    flex-shrink: 0;
+    border-radius: 153px 153px 0px 0px;
+    background: #131424;
+    margin-left: 43%;
+    margin-top: 250px;
+}
+
+.containerw2 {
+    width: 130px;
+    height: 37px;
+    flex-shrink: 0;
+    border-radius: 63px 153px 0px 63px;
+    background: #131424;
+    margin-left: 43%;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(19, 20, 36, 0.8);
+    color: #fff;
+    padding: 2em 0;
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+}
+
+.contact-dropdown {
+    position: relative;
+}
+
+.contact-dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+.contact-dropdown:hover .contact-dropdown-content {
+    display: block;
+}
+
+.contact-dropdown-content a {
+    color: white;
+    padding: 18px 8px;
+    text-decoration: none;
+    display: block;
+}
+
+.contact-dropdown-content a:hover {
+    background-color: rgba(145, 147, 184, 0.2);
+    backdrop-filter: blur(var(--blur));
+    border-radius: 3px;
+}
+
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', Arial, sans-serif;
+    display: inline;
+    margin-right: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.contain1 {
+    margin-left: 705px;
+    margin-top: -305px;
+    line-height: 8px;
+}
+
+p {
+    color: #bdbdbd;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.p4 {
+    font-size: 12px;
+    margin-bottom: 30px;
+    margin-left: -9px;
+    color: #bdbdbd;
+}
+
+.p1 {
+    line-height: 20px;
+    color: #bdbdbd;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    padding-right: 90px;
+}
+
+.p2 {
+    color: #bdbdbd;
+    font-size: 14px;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -25px;
+    text-align: center;
+}
+
+.p3 {
+    color: #fff;
+    margin-left: 13%;
+    font-family: 'MuseoModerno', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+.p6 {
+    color: #fff;
+    font-family: 'MuseoModerno', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin-left: -20px;
+}
+
+.p7 {
+    color: #bdbdbd;
+    font-size: 14px;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -25px;
+    text-align: center;
+    margin-left: -29px;
+}
+
+.p9 {
+    color: #bdbdbd;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    display: block;
+    text-align: center;
+}
+
+.p10 {
+    color: #bdbdbd;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    display: block;
+    text-align: center;
+}
+
+.Linux {
+    color: #fff;
+    font-family: 'MuseoModerno', sans-serif;
+    margin-right: 40px;
+    margin-top: 35px;
+    line-height: 10px;
+    text-align: center;
+}
+
+.itro {
+    color: #bdbdbd;
+    font-family: 'Arial', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.itro2 {
+    color: #fff;
+    font-family: 'MuseoModerno', sans-serif;
+    font-size: 28px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+.icon {
+    padding: 30px;
+    margin-top: 5%;
+    margin-left: 1%;
+    width: 58%;
+}
+
+.icon2 {
+    padding: 25px;
+    margin-top: 5%;
+    width: 75%;
+}
+
+.icon3 {
+    margin-left: 5%;
+    margin-top: 25%;
+}
+
+.card-container {
+    padding: 50px;
+    margin-left: 27%;
+    display: flex;
+    gap: 1rem;
+    width: 35%;
+}
+
+.card {
+    --blur: 50px;
+    width: 160px;
+    height: 200px;
+    aspect-ratio: 4 / 3;
+    position: relative;
+    border-radius: 1rem;
+    overflow: hidden;
+    color: #000;
+    background-color: rgba(145, 147, 184, 0.2);
+    backdrop-filter: blur(var(--blur));
+
+}
+
+.card__footer {
+    padding: 0 1.5rem;
+    position: absolute;
+
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: grid;
+    gap: 0.5ch;
+    background-color: #020976;
+    height: 20%;
+    align-content: center;
+    box-shadow: 5px 5px 5px 5px rgba(14, 13, 13, 0.904);
+}
+
+
+.certi-card {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.certi {
+    --blur: 50px;
+    height: 245px;
+    width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    text-decoration: none;
+    background-color: rgba(145, 147, 184, 0.2);
+    backdrop-filter: blur(var(--blur));
+}
+
+.certi1 {
+    color: #fff;
+    display: block;
+    text-align: center;
+    font-family: 'MuseoModerno', sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.sertif {
+    align-items: center;
+    justify-content: center;
+    margin-left: 6%;
+    margin-top: 4%;
+    border-radius: 0.5rem;
+}
+
+.contact-icon {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+footer {
+    background-color: rgba(145, 147, 184, 0.2);
+    backdrop-filter: blur(var(--blur));
+    color: #fff;
+    padding: 2em 0;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+    width: 69%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
