@@ -1,0 +1,119 @@
+/* Media queries untuk tata letak responsif */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    .foto {
+        width: 90%;
+        margin-left: 15px;
+        margin-top: 75px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        margin-top: -10px;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+        font-size: 14px;
+        padding: 10px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    header {
+        height: 0px;
+    }
+
+    .contain1 {
+        padding: 20px;
+    }
+
+    .p1 {
+        padding-right: 2.9%;
+        text-align: justify;
+    }
+
+    .containerw {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .contain1 {
+        margin-left: 20px;
+        margin-top: 0;
+    }
+
+    .card-container {
+        flex-direction: column;
+        /* Mengubah arah tata letak menjadi kolom */
+        margin-left: 15%;
+    }
+
+    .contact-dropdown-content {
+        margin-left: 7px;
+    }
+
+    .p4 {
+        margin-left: 1.5px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .p3 {
+        margin-right: 10%;
+    }
+
+    .p2 {
+        margin-left: 30%;
+    }
+
+    .p6 {
+        margin-left: -75px;
+    }
+
+    .p0 {
+        font-size: 12px;
+        margin-top: -20px;
+        position: absolute;
+        margin-left: -63px;
+        color: #bdbdbd;
+    }
+
+    .p10 {
+        font-size: 12px;
+    }
+
+    .icon3 {
+        margin-left: 18px;
+    }
+
+    .card {
+        margin-bottom: 20px;
+        /* Jarak antar kartu */
+    }
+
+    .certi-card {
+        flex-direction: column;
+        margin-left: 1.4px;
+        /* Mengubah arah tata letak sertifikat menjadi kolom */
+        align-items: center;
+        /* Pusatkan sertifikat pada layar kecil */
+        width: 90%;
+    }
+
+    .p7 {
+        margin-left: -800;
+    }
+
+    .certi {
+        margin-bottom: 20px;
+        /* Jarak antar sertifikat */
+    }
+
+    footer {
+        width: 90%;
+    }
+}

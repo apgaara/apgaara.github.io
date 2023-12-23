@@ -9,11 +9,6 @@ body {
     background-color: #131424;
 }
 
-.container {
-    width: 80%;
-    margin: 0 auto;
-}
-
 .foto {
     margin-left: 101px;
     margin-top: 160px;
@@ -85,10 +80,6 @@ header {
 }
 
 
-nav ul li {
-    margin-right: 20px;
-}
-
 nav ul li a {
     text-decoration: none;
     color: white;
@@ -136,6 +127,14 @@ p {
     color: #bdbdbd;
 }
 
+.p0 {
+    font-size: 12px;
+    margin-top: -20px;
+    position: absolute;
+    margin-left: -18px;
+    color: #bdbdbd;
+}
+
 .p1 {
     line-height: 20px;
     color: #bdbdbd;
@@ -167,17 +166,7 @@ p {
     font-family: 'MuseoModerno', sans-serif;
     font-size: 25px;
     text-align: center;
-    margin-left: -20px;
-}
-
-.p7 {
-    color: #bdbdbd;
-    font-size: 14px;
-    position: absolute;
-    font-family: 'Montserrat', sans-serif;
-    margin-top: -25px;
-    text-align: center;
-    margin-left: -29px;
+    margin-left: -5px;
 }
 
 .p9 {
@@ -265,7 +254,6 @@ section {
 .card__footer {
     padding: 0 1.5rem;
     position: absolute;
-
     bottom: 0;
     left: 0;
     width: 100%;
@@ -279,7 +267,7 @@ section {
 
 
 .certi-card {
-    padding: 20px;
+    padding: 17px;
     display: flex;
     justify-content: center;
 }
@@ -328,4 +316,3 @@ footer {
     margin-left: auto;
     margin-right: auto;
 }
-
